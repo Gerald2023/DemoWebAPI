@@ -22,7 +22,7 @@ namespace DemoApi.Domain.Entities
         [MaxLength(10)]
         public string? ProductCode { get; init;}
 
-        [Column("price", TypeName = "decima(7, 2)")]
+        [Column("price", TypeName = "decimal(7, 2)")]
         [MaxLength(10)]
         public decimal Price { get; init; }
     }
